@@ -6,4 +6,10 @@ describe('fizzBuzz', () => {
 
         expect(result).toBe("Fizz")
     })
+
+    test('Should returns "Buzz" for multiples of 5', () => {
+        const result = fizzBuzz(5)
+
+        expect(result).toBe("Buzz")
+    })
 })
