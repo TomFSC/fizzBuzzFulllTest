@@ -18,4 +18,10 @@ describe('fizzBuzz', () => {
 
         expect(result).toBe("FizzBuzz")
     })
+
+    test('Should returns 1 when fizzBuzz is called with number = 1', () => {
+        const result = fizzBuzz(1)
+
+        expect(result).toBe(1)
+    })
 })
